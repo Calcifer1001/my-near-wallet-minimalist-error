@@ -1,0 +1,26 @@
+{
+  "name": "my-near-wallet-error-minimalist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@near-wallet-selector/core": "^5.0.3",
+    "@near-wallet-selector/modal-ui": "^5.0.3",
+    "@near-wallet-selector/my-near-wallet": "^5.0.3",
+    "@types/node": "^18.7.1",
+    "install": "^0.13.0",
+    "near-api-js": "^0.39.0",
+    "npm": "^8.17.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.7.4"
+  }
+}
